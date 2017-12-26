@@ -1,7 +1,7 @@
 @extends("layouts.tempMaster")
 
 @section("title")
-    Welcome!
+    Millie Zhou
 @endsection
 
 

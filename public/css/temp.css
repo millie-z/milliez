@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro:100|Arapey');
 /* ---------------------------
 Main Structures
 ----------------------------- */
@@ -88,10 +89,10 @@ body {
     letter-spacing: 0.26em;
     font-weight: 300;
     font-style: italic;
-    font-family: "freight-big-pro";
+    font-family: "Arapey", serif;
     margin-bottom: 0;
     margin-top: 28px;
-    text-shadow: 2px 2px grey;
+    text-shadow: 1px 1px grey;
     text-transform: uppercase;
 }
 
@@ -99,18 +100,19 @@ body {
     margin-top: 2px;
     position: relative;
     z-index: 2;
-    font-family: "brandon-grotesque";
+    font-family: "Advent Pro", sans-serif;
     font-size: 13px;
     line-height: 2.2;
     font-weight: 300;
     letter-spacing: 0.4em;
-    text-shadow: 2px 2px grey;
+    text-shadow: 1px 1px grey;
     text-transform: uppercase;
 }
 
 footer {
-    font-family: "brandon-grotesque";
+    font-family: "Advent Pro", sans-serif;
     font-size: 13px;
+    letter-spacing: 0.1em;
     opacity: .5;
     text-transform: uppercase;
 }
@@ -131,8 +133,6 @@ Social Circle Content
 
 .social-circle-item {
     display: inline-block;
-    height: 20px;
-    background-size: 123px 20px;
     margin-left: 15px;
     opacity: .4;
     -webkit-transition: all .1s ease-in;
@@ -147,17 +147,21 @@ Social Circle Content
     color: #fff;
     font-size: 15px;
     text-decoration: none;
-    font-family: "brandon-grotesque";
+    font-family: "Advent Pro", sans-serif;
+    letter-spacing: 0.1em;
     opacity: .5;
+    text-shadow: 1px 1px black;
     -webkit-transition: opacity .1s ease-in;
 }
 
 .email-link:hover, .email-link:focus {
-    opacity: 1;
+    opacity: .99;
+    cursor: crosshair;
 }
 
 .social-circle-item:hover {
-    opacity: 1;
+    opacity: .99;
+    cursor: crosshair;
 }
 
 
